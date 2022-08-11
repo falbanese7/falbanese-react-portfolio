@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/falbanese-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.2351a5df.js",
+    "main.css": "/falbanese-react-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/falbanese-react-portfolio/static/js/main.d3bb1987.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
-    "static/media/logo.svg": "/falbanese-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/falbanese-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/falbanese-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.2351a5df.js.map": "/falbanese-react-portfolio/static/js/main.2351a5df.js.map",
+    "main.e6c13ad2.css.map": "/falbanese-react-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.d3bb1987.js.map": "/falbanese-react-portfolio/static/js/main.d3bb1987.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2351a5df.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d3bb1987.js"
   ]
 }
