@@ -220,9 +220,12 @@ ion-icon {
 }
 footer {
   display: flex;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  bottom: 0;
   height: 75px;
   color: var(--white);
   font-family: var(--font-family);

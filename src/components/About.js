@@ -3,7 +3,7 @@ import profilePic from '../assets/images/Updated.jpg';
 
 function About() {
   return (
-    <main>
+    <section>
       <section>
         <h1 className="welcome-header">Welcome to my portfolio!</h1>
         <div className="hotdog d-flex justify-content-center">
@@ -26,7 +26,7 @@ function About() {
           </div>
         </div>
       </section>
-    </main>
+    </section>
   );
 }
 

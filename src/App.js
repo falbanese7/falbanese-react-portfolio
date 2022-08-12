@@ -22,10 +22,10 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>
+    <main>
       <Header></Header>
       <Footer></Footer>
-    </div>
+    </main>
   );
 }
 
