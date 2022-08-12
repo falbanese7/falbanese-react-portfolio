@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/falbanese-react-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.d3bb1987.js",
+    "main.css": "/falbanese-react-portfolio/static/css/main.fefb4419.css",
+    "main.js": "/falbanese-react-portfolio/static/js/main.747baf5f.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
     "index.html": "/falbanese-react-portfolio/index.html",
-    "main.e6c13ad2.css.map": "/falbanese-react-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.d3bb1987.js.map": "/falbanese-react-portfolio/static/js/main.d3bb1987.js.map",
+    "main.fefb4419.css.map": "/falbanese-react-portfolio/static/css/main.fefb4419.css.map",
+    "main.747baf5f.js.map": "/falbanese-react-portfolio/static/js/main.747baf5f.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d3bb1987.js"
+    "static/css/main.fefb4419.css",
+    "static/js/main.747baf5f.js"
   ]
 }
