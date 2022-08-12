@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/falbanese-react-portfolio/static/css/main.6ba035cf.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.d8bc7abc.js",
+    "main.js": "/falbanese-react-portfolio/static/js/main.ca9e2661.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
     "static/media/fa-solid-900.svg": "/falbanese-react-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/falbanese-react-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -26,11 +26,11 @@
     "static/media/fa-regular-400.woff2": "/falbanese-react-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/falbanese-react-portfolio/index.html",
     "main.6ba035cf.css.map": "/falbanese-react-portfolio/static/css/main.6ba035cf.css.map",
-    "main.d8bc7abc.js.map": "/falbanese-react-portfolio/static/js/main.d8bc7abc.js.map",
+    "main.ca9e2661.js.map": "/falbanese-react-portfolio/static/js/main.ca9e2661.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ba035cf.css",
-    "static/js/main.d8bc7abc.js"
+    "static/js/main.ca9e2661.js"
   ]
 }
