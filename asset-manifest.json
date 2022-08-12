@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/falbanese-react-portfolio/static/css/main.6ba035cf.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.c98489b1.js",
+    "main.js": "/falbanese-react-portfolio/static/js/main.d8bc7abc.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
     "static/media/fa-solid-900.svg": "/falbanese-react-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/falbanese-react-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -19,17 +19,18 @@
     "static/media/fa-brands-400.woff": "/falbanese-react-portfolio/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/fa-solid-900.woff2": "/falbanese-react-portfolio/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/falbanese-react-portfolio/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/Francesco Developer Resume.pdf": "/falbanese-react-portfolio/static/media/Francesco Developer Resume.12678fb41f84f177838f.pdf",
     "static/media/fa-regular-400.eot": "/falbanese-react-portfolio/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/falbanese-react-portfolio/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/fa-regular-400.woff": "/falbanese-react-portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/falbanese-react-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/falbanese-react-portfolio/index.html",
     "main.6ba035cf.css.map": "/falbanese-react-portfolio/static/css/main.6ba035cf.css.map",
-    "main.c98489b1.js.map": "/falbanese-react-portfolio/static/js/main.c98489b1.js.map",
+    "main.d8bc7abc.js.map": "/falbanese-react-portfolio/static/js/main.d8bc7abc.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ba035cf.css",
-    "static/js/main.c98489b1.js"
+    "static/js/main.d8bc7abc.js"
   ]
 }
