@@ -1,13 +1,319 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --white: white;
+  --dark: #282a35;
+  --blue: blue;
+  --font-family: 'Arimo', sans-serif;
 }
+
+body {
+  background-color: var(--white);
+}
+
+.welcome-header {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: var(--dark);
+  font-family: var(--font-family);
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 15px;
+  font-family: var(--font-family);
+}
+
+.align-center {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+
+li {
+  padding: 10px;
+  color: var(--white);
+  list-style: none;
+}
+
+header a:link {
+  color: var(--white);
+}
+
+header a:visited {
+  color: var(--white);
+}
+
+header a:hover {
+  color: #145b6d
+}
+
+header a:active {
+  color: var(--blue)
+}
+
+.about, .education, .contact{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.section-headers {
+  display: flex;
+  justify-content: center;
+}
+
+.left-borders {
+  border-left: solid;
+  padding-left: 30px;
+}
+
+.featured-project-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Separate from the rest of the sections because the images require additional positioning properties. */
+.projects {
+  display: flex;
+  position: relative;
+  text-align: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.projects h2 {
+  margin-bottom: 35px;
+}
+
+/* Setting the max space the profile image in the about me section can be in. */
+#profile-image {
+  border-radius: 50%;
+  width: 350px;
+}
+
+.featured-project {
+  width: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  transition: transform .2s;
+}
+
+#featured-project-image {
+  width: 1000px;
+  border-radius: 20px;
+  border: solid var(--dark) 10px;
+}
+
+#featured-project-caption {
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: x-large;
+  background-color: var(--dark);
+  border-radius: 5px 5px 5px 5px;
+  color: var(--white);
+  padding: 15px;
+}
+
+/* The image will grow when a cursor hovers over it. */
+.featured-project:hover {
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+
+h3 {
+  font-family: var(--font-family);
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.additional-projects {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  transition: transform .2s;
+}
+
+#additional-projects-image {
+  width: 350px;
+  margin: 30px;
+  border-radius: 25px;
+  border: solid var(--dark) 10px;
+  transition: transform .2s;
+}
+
+#additional-projects-image:hover {
+  border-radius: 25px;
+  transform: scale(1.2);
+}
+
+#additional-projects-caption {
+  position: relative;
+  bottom: 0%;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: x-large;
+  background-color: var(--dark);
+  border-radius: 5px 5px 5px 5px;
+  color: var(--white);
+  padding: 15px;
+  margin: 10px;
+  transition: transform .2s;
+}
+
+#additional-projects-caption:hover {
+  transform: scale(1.2);
+}
+
+#container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.custom-font {
+  font-family: var(--font-family);
+  font-weight: 900;
+  margin: 25px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+.contact a {
+  color: var(--blue);
+}
+
+/* Editing the social media icons. */
+ion-icon {
+  font-size: xx-large;
+  color: var(--dark);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 75px;
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: x-large;
+}
+
+pre {
+  margin-bottom: 0px;
+}
+
+/* Specific properties for the heart emoji in the footer. */
+#heart {
+  font-family: var(--font-family);
+}
+
+/* These selectors will be affected when the screen is at or below 1536px. */
+@media screen and (max-width: 1536px) {
+  #featured-project-image {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+  #featured-project-caption {
+      font-size: 100%;
+  }
+  .additional-projects {
+      width: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+  }
+  p {
+      line-height: 2rem;
+  }
+}
+
+
+/* These selectors will be affected when the screen is at or below 992px. */
+@media screen and (max-width: 992px) {
+  #featured-project-image {
+      width: fit-content;
+   }
+
+  .additional-projects {
+      width: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  p {
+      line-height: 2rem;
+  }
+}
+
+/* These selectors will be affected when the screen is at or below 768px. */
+@media screen and (max-width: 768px) {
+  #featured-project-image {
+      width: fit-content;
+   } 
+  .additional-projects {
+      width: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  p {
+      line-height: 2rem;
+  }
+}
+
+/* These selectors will be affected when the screen is at or below 576px. */
+@media screen and (max-width: 576px) {
+  body {
+      width: fit-content;
+  }
+  #featured-project-image {
+      width: fit-content;
+   }   
+
+  .additional-projects {
+      width: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  p {
+      line-height: 2rem;
+  }
+}
+
