@@ -1,3 +1,8 @@
+import sitestashPic from '../assets/images/sitestash.png';
+import movieRefreshPic from '../assets/images/movieRefresh.png';
+import notePic from '../assets/images/notetaker.png';
+import weatherPic from '../assets/images/weatherDash.png';
+
 function Projects() {
   return (
     <section className="projects" id="projects">
@@ -12,7 +17,7 @@ function Projects() {
             >
               <img
                 id="featured-project-image"
-                src="./assets/images/Screen Shot 2022-07-07 at 11.36.21 AM.png"
+                src={sitestashPic}
                 alt="Screenshot of Sitestash Dashboard"
               />
               <figcaption id="featured-project-caption">Sitestash</figcaption>
@@ -55,7 +60,7 @@ function Projects() {
             <div className="align-center">
               <img
                 id="additional-projects-image"
-                src="./assets/images/167070744-1c5df8d4-aec1-4428-a92d-b1d1fb879794.png"
+                src={movieRefreshPic}
                 alt="Screenshot of Movie Refresh application"
               />
               <figcaption id="additional-projects-caption">
@@ -89,7 +94,7 @@ function Projects() {
             <div className="align-center">
               <img
                 id="additional-projects-image"
-                src="./assets/images/Screen Shot 2022-06-07 at 2.58.31 AM.png"
+                src={notePic}
                 alt="Screenshot of Note Taker Application"
               />
               <figcaption id="additional-projects-caption">
@@ -125,7 +130,7 @@ function Projects() {
             <div className="align-center">
               <img
                 id="additional-projects-image"
-                src="./assets/images/Screen Shot 2022-05-12 at 1.10.48 AM.png"
+                src={weatherPic}
                 alt="Screenshot of Weather Dashboard Application"
               />
               <figcaption id="additional-projects-caption">
