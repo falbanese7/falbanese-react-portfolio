@@ -24,7 +24,10 @@ export default function Footer() {
           style={{ width: '80%' }}
         >
           <CDBBox display="flex" alignItems="center">
-            <a href="/" className="d-flex align-items-center p-0 text-dark">
+            <a
+              href="https://falbanese7.github.io/falbanese-react-portfolio/"
+              className="d-flex align-items-center p-0 text-dark"
+            >
               <span className="ml-4 h5 mb-0 font-weight-bold">
                 Francesco Albanese
               </span>
