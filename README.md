@@ -6,7 +6,7 @@ A direct link to the deployed site is included below:
 
 URL: https://falbanese7.github.io/falbanese-react-portfolio/
 
-![Usage Gif](./src/assets/images/final_62f60ad423024500ac172c2f_532842.gif)
+![Usage Gif](./src/assets/images/final_62f60cfcc27f8e00e9bf4e06_310605.gif)
 
 This portfolio site is comprised of 4 sections.
 
