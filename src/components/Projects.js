@@ -9,7 +9,7 @@ function Projects() {
   return (
     <section className="projects">
       <div className="justify-content-center">
-        <h2>Featured Project</h2>
+        <h2>Featured Projects</h2>
         <div>
           <figure className="featured-project">
             <a
