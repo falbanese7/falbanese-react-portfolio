@@ -1,6 +1,6 @@
-/* * {
+* {
   margin: 0;
-} */
+}
 
 :root {
   --white: white;
@@ -51,7 +51,7 @@ li {
 }
 
 header a:link {
-  color: var(--white);
+  color: var(--blue);
 }
 
 header a:visited {

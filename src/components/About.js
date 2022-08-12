@@ -11,7 +11,7 @@ function About() {
         </div>
       </section>
       {/* <!-- About Me --> */}
-      <section className="about container" id="about-me">
+      <section className="about container">
         <div className="row">
           <div className="col-md align-items-center section-headers">
             <h2>About Me</h2>
