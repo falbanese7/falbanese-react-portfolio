@@ -1,12 +1,12 @@
-# Francesco Albanese's Portfolio
+# Francesco Albanese's React.js Portfolio
 
-Welcome to my portfolio!
-
-This was built using React.js.
+Welcome to my portfolio! This application was built using React.js.
 
 A direct link to the deployed site is included below:
 
 URL: https://falbanese7.github.io/falbanese-react-portfolio/
+
+![Usage Gif](./src/assets/images/final_62f60ad423024500ac172c2f_532842.gif)
 
 This portfolio site is comprised of 4 sections.
 
