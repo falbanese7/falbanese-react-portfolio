@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <div className="container-fluid">
         <a
           className="navbar-brand"
-          href="https://falbanese7.github.io/francesco-albanese-portfolio/"
+          href="https://falbanese7.github.io/falbanese-react-portfolio/"
         >
           Francesco's Developer Portfolio
         </a>
