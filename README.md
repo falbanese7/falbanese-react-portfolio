@@ -35,7 +35,11 @@ This section contains a form that users can fill out to get in contact with me.
 - React
 - HTML5
 - CSS3
-- Bootstrap
-- JavaScript
+- JavaScript (ES6)
+- Node.js
+- Node Package Manager
+  - mdbreact package
+  - mdb-ui-kit
+  - bootstrap
 
 Developed by: Francesco Albanese
