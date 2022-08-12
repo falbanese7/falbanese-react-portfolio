@@ -1,6 +1,6 @@
-* {
+/* * {
   margin: 0;
-}
+} */
 
 :root {
   --white: white;
@@ -213,24 +213,27 @@ h3 {
   color: var(--blue);
 }
 
+.div-padder {
+  padding: 60px;
+}
+
 /* Editing the social media icons. */
 ion-icon {
   font-size: xx-large;
   color: var(--dark);
 }
-footer {
+/* footer {
   display: flex;
   bottom: 0;
   right: 0;
   left: 0;
-  position: absolute;
   justify-content: center;
   align-items: center;
   height: 75px;
   color: var(--white);
   font-family: var(--font-family);
   font-size: x-large;
-}
+} */
 
 pre {
   margin-bottom: 0px;

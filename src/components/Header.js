@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
 import Navigation from './Navigation';
 import About from './About';
-import Portfolio from './Portfolio';
+import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
 
@@ -14,8 +14,8 @@ export default function Header() {
     if (currentPage === 'Home') {
       return <About />;
     }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+    if (currentPage === 'Projects') {
+      return <Projects />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;

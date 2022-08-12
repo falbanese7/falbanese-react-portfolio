@@ -1,3 +1,5 @@
+import 'bootstrap/dist/js/bootstrap.js';
+
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
@@ -37,9 +39,9 @@ function Navigation({ currentPage, handlePageChange }) {
               <a
                 className="nav-link"
                 href="#projects"
-                onClick={() => handlePageChange('Portfolio')}
+                onClick={() => handlePageChange('Projects')}
               >
-                Portfolio
+                Projects
               </a>
             </li>
             <li className="nav-item">
