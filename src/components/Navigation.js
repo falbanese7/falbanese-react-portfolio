@@ -1,6 +1,6 @@
 import 'bootstrap/dist/js/bootstrap.js';
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({ handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <div className="container-fluid">

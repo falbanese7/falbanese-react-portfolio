@@ -235,6 +235,12 @@ ion-icon {
   font-size: x-large;
 } */
 
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+}
+
 pre {
   margin-bottom: 0px;
 }

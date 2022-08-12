@@ -24,7 +24,6 @@ function App() {
     // </div>
     <main>
       <Header></Header>
-      <div className="div-padder"></div>
       <Footer></Footer>
     </main>
   );
