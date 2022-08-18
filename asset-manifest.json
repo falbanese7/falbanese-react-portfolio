@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/falbanese-react-portfolio/static/css/main.b1398b95.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.60870ba0.js",
+    "main.js": "/falbanese-react-portfolio/static/js/main.3d2243d8.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
+    "static/media/booksearchengine.png": "/falbanese-react-portfolio/static/media/booksearchengine.f92c21fa81c64f0042da.png",
     "static/media/fa-solid-900.svg": "/falbanese-react-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/falbanese-react-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/weatherDash.png": "/falbanese-react-portfolio/static/media/weatherDash.16174671a920ac13a76d.png",
     "static/media/sitestash.png": "/falbanese-react-portfolio/static/media/sitestash.a74a67b3e28f99bee8fa.png",
     "static/media/fa-solid-900.eot": "/falbanese-react-portfolio/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
     "static/media/fa-solid-900.ttf": "/falbanese-react-portfolio/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
-    "static/media/notetaker.png": "/falbanese-react-portfolio/static/media/notetaker.74528e279fc2907eb2ec.png",
     "static/media/jate.png": "/falbanese-react-portfolio/static/media/jate.de6c491222999bc24c03.png",
     "static/media/fa-regular-400.svg": "/falbanese-react-portfolio/static/media/fa-regular-400.4689f52cc96215721344.svg",
     "static/media/movieRefresh.png": "/falbanese-react-portfolio/static/media/movieRefresh.ccccfbd176c385b99bbb.png",
@@ -28,11 +28,11 @@
     "static/media/fa-regular-400.woff2": "/falbanese-react-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/falbanese-react-portfolio/index.html",
     "main.b1398b95.css.map": "/falbanese-react-portfolio/static/css/main.b1398b95.css.map",
-    "main.60870ba0.js.map": "/falbanese-react-portfolio/static/js/main.60870ba0.js.map",
+    "main.3d2243d8.js.map": "/falbanese-react-portfolio/static/js/main.3d2243d8.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1398b95.css",
-    "static/js/main.60870ba0.js"
+    "static/js/main.3d2243d8.js"
   ]
 }
