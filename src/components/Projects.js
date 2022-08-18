@@ -1,8 +1,8 @@
 import sitestashPic from '../assets/images/sitestash.png';
 import movieRefreshPic from '../assets/images/movieRefresh.png';
-import notePic from '../assets/images/notetaker.png';
-import weatherPic from '../assets/images/weatherDash.png';
 import jate from '../assets/images/jate.png';
+import weatherPic from '../assets/images/weatherDash.png';
+import bookSearch from '../assets/images/booksearchengine.png';
 import scheduler from '../assets/images/scheduler.png';
 
 function Projects() {
@@ -86,6 +86,42 @@ function Projects() {
       <figure className="additional-projects">
         <div>
           <a
+            href="https://highwind-book-search.herokuapp.com/"
+            target="_blank"
+            className="link-dark"
+            rel="noreferrer"
+          >
+            <div className="align-center">
+              <img
+                id="additional-projects-image"
+                src={bookSearch}
+                alt="Screenshot of book search engine"
+              />
+              <figcaption id="additional-projects-caption">
+                Google Book Search Engine
+              </figcaption>
+            </div>
+          </a>
+          <a
+            href="https://github.com/falbanese7/MERN-Highwind-Book-Search-Engine"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <ul className="list-group custom-font">
+            <li className="list-group-item">JavaScript (ES6)</li>
+            <li className="list-group-item">React.js</li>
+            <li className="list-group-item">GraphQL</li>
+            <li className="list-group-item">Apollo Server</li>
+            <li className="list-group-item">Node.js</li>
+            <li className="list-group-item">Express.js</li>
+            <li className="list-group-item">MongoDB</li>
+            <li className="list-group-item">Heroku</li>
+          </ul>
+        </div>
+        <div>
+          <a
             href="https://stark-oasis-36322.herokuapp.com/"
             target="_blank"
             className="link-dark"
@@ -116,42 +152,6 @@ function Projects() {
             <li className="list-group-item">IndexedDB</li>
             <li className="list-group-item">Concurrently</li>
             <li className="list-group-item">Heroku</li>
-          </ul>
-        </div>
-        <div>
-          <a
-            href="https://fierce-temple-65595.herokuapp.com/"
-            target="_blank"
-            className="link-dark"
-            rel="noreferrer"
-          >
-            <div className="align-center">
-              <img
-                id="additional-projects-image"
-                src={notePic}
-                alt="Screenshot of Note Taker Application"
-              />
-              <figcaption id="additional-projects-caption">
-                Note Taker
-              </figcaption>
-            </div>
-          </a>
-          <a
-            href="https://github.com/falbanese7/falbanese7-note-taker-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-          <ul className="list-group custom-font">
-            <li className="list-group-item">HTML5</li>
-            <li className="list-group-item">CSS3</li>
-            <li className="list-group-item">JavaScript (ES6)</li>
-            <li className="list-group-item">NPM</li>
-            <li className="list-group-item">Node.js</li>
-            <li className="list-group-item">Express.js</li>
-            <li className="list-group-item">Heroku</li>
-            <li className="list-group-item">fs, util, and uuidv4 modules</li>
           </ul>
         </div>
         <div>
