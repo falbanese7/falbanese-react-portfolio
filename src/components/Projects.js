@@ -1,13 +1,56 @@
 import sitestashPic from '../assets/images/sitestash.png';
 import movieRefreshPic from '../assets/images/movieRefresh.png';
+import hotspotPic from '../assets/images/hotspot.png';
 import jate from '../assets/images/jate.png';
 import weatherPic from '../assets/images/weatherDash.png';
-import bookSearch from '../assets/images/booksearchengine.png';
 import scheduler from '../assets/images/scheduler.png';
 
 function Projects() {
   return (
     <section className="projects">
+      <div className="justify-content-center">
+        <h2>Featured Projects</h2>
+        <div>
+          <figure className="featured-project">
+            <a
+              href="https://hotspot-search.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                id="featured-project-image"
+                src={hotspotPic}
+                alt="Screenshot of HotSpot Homepage"
+              />
+              <figcaption id="featured-project-caption">HotSpot</figcaption>
+            </a>
+          </figure>
+          <a
+            href="https://github.com/BillyBain/HotSpot"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <ul className="list-group custom-font">
+            <li className="list-group-item">HTML5</li>
+            <li className="list-group-item">CSS3</li>
+            <li className="list-group-item">Bootstrap</li>
+            <li className="list-group-item">JavaScript (ES6)</li>
+            <li className="list-group-item">React.js</li>
+            <li className="list-group-item">Node.js</li>
+            <li className="list-group-item">Express.js</li>
+            <li className="list-group-item">GraphQL</li>
+            <li className="list-group-item">MongoDB</li>
+            <li className="list-group-item">Mongoose</li>
+            <li className="list-group-item">JWT</li>
+            <li className="list-group-item">dotenv</li>
+            <li className="list-group-item">bcrypt</li>
+            <li className="list-group-item">Third-party API</li>
+            <li className="list-group-item">Heroku</li>
+          </ul>
+        </div>
+      </div>
       <div className="justify-content-center">
         <h2>Featured Projects</h2>
         <div>
@@ -84,42 +127,6 @@ function Projects() {
       </div>
       <h3>Additional Projects</h3>
       <figure className="additional-projects">
-        <div>
-          <a
-            href="https://highwind-book-search.herokuapp.com/"
-            target="_blank"
-            className="link-dark"
-            rel="noreferrer"
-          >
-            <div className="align-center">
-              <img
-                id="additional-projects-image"
-                src={bookSearch}
-                alt="Screenshot of book search engine"
-              />
-              <figcaption id="additional-projects-caption">
-                Google Book Search Engine
-              </figcaption>
-            </div>
-          </a>
-          <a
-            href="https://github.com/falbanese7/MERN-Highwind-Book-Search-Engine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-          <ul className="list-group custom-font">
-            <li className="list-group-item">JavaScript (ES6)</li>
-            <li className="list-group-item">React.js</li>
-            <li className="list-group-item">GraphQL</li>
-            <li className="list-group-item">Apollo Server</li>
-            <li className="list-group-item">Node.js</li>
-            <li className="list-group-item">Express.js</li>
-            <li className="list-group-item">MongoDB</li>
-            <li className="list-group-item">Heroku</li>
-          </ul>
-        </div>
         <div>
           <a
             href="https://stark-oasis-36322.herokuapp.com/"
