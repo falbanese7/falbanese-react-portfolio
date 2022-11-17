@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/falbanese-react-portfolio/static/css/main.b1398b95.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.3d2243d8.js",
+    "main.js": "/falbanese-react-portfolio/static/js/main.e57ba632.js",
     "static/js/787.0afeeaf3.chunk.js": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js",
-    "static/media/booksearchengine.png": "/falbanese-react-portfolio/static/media/booksearchengine.f92c21fa81c64f0042da.png",
+    "static/media/hotspot.png": "/falbanese-react-portfolio/static/media/hotspot.747d36afafb054504590.png",
     "static/media/fa-solid-900.svg": "/falbanese-react-portfolio/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/falbanese-react-portfolio/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/weatherDash.png": "/falbanese-react-portfolio/static/media/weatherDash.16174671a920ac13a76d.png",
@@ -21,18 +21,18 @@
     "static/media/fa-brands-400.woff": "/falbanese-react-portfolio/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/fa-solid-900.woff2": "/falbanese-react-portfolio/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/falbanese-react-portfolio/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
-    "static/media/Francesco Developer Resume.pdf": "/falbanese-react-portfolio/static/media/Francesco Developer Resume.12678fb41f84f177838f.pdf",
+    "static/media/Francesco Developer Resume.pdf": "/falbanese-react-portfolio/static/media/Francesco Developer Resume.5ae9fa8f6a7f360c0328.pdf",
     "static/media/fa-regular-400.eot": "/falbanese-react-portfolio/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/falbanese-react-portfolio/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/fa-regular-400.woff": "/falbanese-react-portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/falbanese-react-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/falbanese-react-portfolio/index.html",
     "main.b1398b95.css.map": "/falbanese-react-portfolio/static/css/main.b1398b95.css.map",
-    "main.3d2243d8.js.map": "/falbanese-react-portfolio/static/js/main.3d2243d8.js.map",
+    "main.e57ba632.js.map": "/falbanese-react-portfolio/static/js/main.e57ba632.js.map",
     "787.0afeeaf3.chunk.js.map": "/falbanese-react-portfolio/static/js/787.0afeeaf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1398b95.css",
-    "static/js/main.3d2243d8.js"
+    "static/js/main.e57ba632.js"
   ]
 }
