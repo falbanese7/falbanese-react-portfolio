@@ -109,7 +109,7 @@ header a:active {
 
 /* Setting the max space the profile image in the about me section can be in. */
 #profile-image {
-  border-radius: 50%;
+  border-radius: 5%;
   width: 350px;
 }
 

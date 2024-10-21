@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import profilePic from '../assets/images/Updated.jpg';
+import profilePic from '../assets/images/IMG_0559.jpg';
 
 function About() {
   return (
