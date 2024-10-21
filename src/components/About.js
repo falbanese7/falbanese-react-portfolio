@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import profilePic from '../assets/images/IMG_0559.jpg';
+import profilePic from '/src/assets/images/mt-major.jpg';
 
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
       <section>
         <h1 className="welcome-header">Welcome to my portfolio!</h1>
         <div className="hotdog d-flex justify-content-center">
-          <img id="profile-image" src={profilePic} alt="Fran with hotdog" />
+          <img id="profile-image" src={profilePic} alt="pic of Fran" />
         </div>
       </section>
       {/* <!-- About Me --> */}
