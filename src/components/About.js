@@ -6,7 +6,7 @@ function About() {
     <section>
       <section>
         <h1 className="welcome-header">Welcome to my portfolio!</h1>
-        <div className="hotdog d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
           <img id="profile-image" src={profilePic} alt="pic of Fran" />
         </div>
       </section>
