@@ -1,5 +1,5 @@
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
-import resume from '../assets/resume/Francesco Developer Resume.pdf';
+import resume from '../assets/resume/Francesco QA Resume.pdf';
 
 function Resume(props) {
   return (

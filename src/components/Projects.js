@@ -1,4 +1,4 @@
-import sitestashPic from '../assets/images/sitestash.png';
+// import sitestashPic from '../assets/images/sitestash.png';
 import movieRefreshPic from '../assets/images/movieRefresh.png';
 import hotspotPic from '../assets/images/hotspot.png';
 import jate from '../assets/images/jate.png';
@@ -51,8 +51,7 @@ function Projects() {
           </ul>
         </div>
       </div>
-      <div className="justify-content-center">
-        <h2>Featured Projects</h2>
+      {/* <div className="justify-content-center">
         <div>
           <figure className="featured-project">
             <a
@@ -92,7 +91,7 @@ function Projects() {
             <li className="list-group-item">Passport</li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div>
         <figure className="featured-project">
           <a
