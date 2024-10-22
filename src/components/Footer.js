@@ -12,6 +12,8 @@
 import React from 'react';
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 
+const currentYear = new Date().getFullYear();
+
 export default function Footer() {
   return (
     <div className="div-padder">
@@ -35,7 +37,7 @@ export default function Footer() {
           </CDBBox>
           <CDBBox>
             <small className="ml-2">
-              &copy; Francesco Albanese, 2022. All rights reserved.
+              &copy; Francesco Albanese, {currentYear}. All rights reserved.
             </small>
           </CDBBox>
           <CDBBox display="flex">
