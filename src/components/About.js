@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import profilePic from '/src/assets/images/mt-major.jpg';
+import profilePic from '../assets/images/mt-major.jpg';
 
 function About() {
   return (
