@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/falbanese-react-portfolio/static/css/main.4a49eaa9.css",
-    "main.js": "/falbanese-react-portfolio/static/js/main.7ef6b1a5.js",
+    "main.css": "/falbanese-react-portfolio/static/css/main.0ee0628a.css",
+    "main.js": "/falbanese-react-portfolio/static/js/main.53960883.js",
     "static/js/453.6b0ce26b.chunk.js": "/falbanese-react-portfolio/static/js/453.6b0ce26b.chunk.js",
     "static/media/hotspot.png": "/falbanese-react-portfolio/static/media/hotspot.747d36afafb054504590.png",
     "static/media/mt-major.jpg": "/falbanese-react-portfolio/static/media/mt-major.fc05c42c2963ab4a782e.jpg",
@@ -26,12 +26,12 @@
     "static/media/fa-regular-400.woff": "/falbanese-react-portfolio/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/falbanese-react-portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/falbanese-react-portfolio/index.html",
-    "main.4a49eaa9.css.map": "/falbanese-react-portfolio/static/css/main.4a49eaa9.css.map",
-    "main.7ef6b1a5.js.map": "/falbanese-react-portfolio/static/js/main.7ef6b1a5.js.map",
+    "main.0ee0628a.css.map": "/falbanese-react-portfolio/static/css/main.0ee0628a.css.map",
+    "main.53960883.js.map": "/falbanese-react-portfolio/static/js/main.53960883.js.map",
     "453.6b0ce26b.chunk.js.map": "/falbanese-react-portfolio/static/js/453.6b0ce26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a49eaa9.css",
-    "static/js/main.7ef6b1a5.js"
+    "static/css/main.0ee0628a.css",
+    "static/js/main.53960883.js"
   ]
 }
