@@ -1,14 +1,3 @@
-// function Footer() {
-//   return (
-//     <footer className="bg-dark">
-//       {' '}
-//       <pre id="heart"> Made with ❤️ by Francesco Albanese </pre>
-//     </footer>
-//   );
-// }
-
-// export default Footer;
-
 import React from 'react';
 import { CDBFooter, CDBBtn, CDBIcon, CDBBox } from 'cdbreact';
 
