@@ -1,5 +1,16 @@
 * {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 :root {
@@ -11,6 +22,8 @@
 
 body {
   background-color: var(--white);
+  min-height: 100vh;
+  position: relative;
 }
 
 .welcome-header {
@@ -36,7 +49,7 @@ p {
   align-items: center;
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -59,14 +72,16 @@ header a:visited {
 }
 
 header a:hover {
-  color: #145b6d
+  color: #145b6d;
 }
 
 header a:active {
-  color: var(--blue)
+  color: var(--blue);
 }
 
-.about, .education, .contact{
+.about,
+.education,
+.contact {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -74,7 +89,6 @@ header a:active {
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
-  
 }
 
 .section-headers {
@@ -119,7 +133,7 @@ header a:active {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 #featured-project-image {
@@ -157,7 +171,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 #additional-projects-image {
@@ -165,7 +179,7 @@ h3 {
   margin: 30px;
   border-radius: 25px;
   border: solid var(--dark) 10px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 #additional-projects-image:hover {
@@ -184,7 +198,7 @@ h3 {
   color: var(--white);
   padding: 15px;
   margin: 10px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 #additional-projects-caption:hover {
@@ -213,27 +227,20 @@ h3 {
   color: var(--blue);
 }
 
-.div-padder {
-  padding: 60px;
-}
+/* .div-padder {
+  position: relative;
+} */
 
 /* Editing the social media icons. */
 ion-icon {
   font-size: xx-large;
   color: var(--dark);
 }
-/* footer {
-  display: flex;
+footer {
+  position: absolute;
   bottom: 0;
-  right: 0;
-  left: 0;
-  justify-content: center;
-  align-items: center;
-  height: 75px;
-  color: var(--white);
-  font-family: var(--font-family);
-  font-size: x-large;
-} */
+  width: 100%;
+}
 
 form {
   width: 50%;
@@ -253,79 +260,77 @@ pre {
 /* These selectors will be affected when the screen is at or below 1536px. */
 @media screen and (max-width: 1536px) {
   #featured-project-image {
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #featured-project-caption {
-      font-size: 100%;
+    font-size: 100%;
   }
   .additional-projects {
-      width: fit-content;
-      display: flex;
-      justify-content: center;
-      align-items: baseline;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
   }
   p {
-      line-height: 2rem;
+    line-height: 2rem;
   }
 }
-
 
 /* These selectors will be affected when the screen is at or below 992px. */
 @media screen and (max-width: 992px) {
   #featured-project-image {
-      width: fit-content;
-   }
+    width: fit-content;
+  }
 
   .additional-projects {
-      width: fit-content;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
   p {
-      line-height: 2rem;
+    line-height: 2rem;
   }
 }
 
 /* These selectors will be affected when the screen is at or below 768px. */
 @media screen and (max-width: 768px) {
   #featured-project-image {
-      width: fit-content;
-   } 
+    width: fit-content;
+  }
   .additional-projects {
-      width: fit-content;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
   p {
-      line-height: 2rem;
+    line-height: 2rem;
   }
 }
 
 /* These selectors will be affected when the screen is at or below 576px. */
 @media screen and (max-width: 576px) {
   body {
-      width: fit-content;
+    width: fit-content;
   }
   #featured-project-image {
-      width: fit-content;
-   }   
+    width: fit-content;
+  }
 
   .additional-projects {
-      width: fit-content;
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
   p {
-      line-height: 2rem;
+    line-height: 2rem;
   }
 }
-

@@ -16,7 +16,7 @@ const currentYear = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <div className="div-padder">
+    <div>
       <CDBFooter className="shadow">
         <CDBBox
           display="flex"
